@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="500.0" prefWidth="800.0" spacing="20.0" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.routefinder.MainController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <HBox>
+      <children>
+         <ImageView fx:id="mapView" fitHeight="666.0" fitWidth="800.0" onMouseClicked="#getCoordinates" pickOnBounds="true" preserveRatio="true" />
+         <ScrollPane prefHeight="666.0" prefWidth="780.0">
+           <content>
+             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0">
+                  <children>
+                     <ListView fx:id="listView" prefHeight="666.0" prefWidth="700" />
+                  </children>
+               </AnchorPane>
+           </content>
+         </ScrollPane>
+      </children>
+   </HBox>
+   <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
+      <children>
+         <TextField fx:id="startingRoom" promptText="Starting Room" />
+         <TextField fx:id="destinationRoom" promptText="Destination Room" />
+         <Button mnemonicParsing="false" onMouseClicked="#drawPath" text="Breadth First" textAlignment="RIGHT" />
+         <Button mnemonicParsing="false" onMouseClicked="#DepthSearch" text="Depth First Single" textAlignment="RIGHT" />
+         <Button layoutX="546.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#DepthSearchAll" text="Depth First All" textAlignment="RIGHT" />
+         <Button layoutX="596.0" layoutY="10.0" mnemonicParsing="false" onMouseClicked="#ShortestPathDijkstra" text="Shortest Route Dijkstra" textAlignment="RIGHT" />
+      </children>
+   </HBox>
+</VBox>

@@ -1,0 +1,89 @@
+/* reference://stackoverflow.com/questions/26597919/javafx-8-datepicker-style */
+
+.root {
+    -fx-background-color: rgb(20,20,20);
+    -fx-text-fill: white;
+}
+
+.label{
+    -fx-text-fill: white;
+}
+
+.menu-bar {
+    -fx-background-color: rgb(40,40,40);
+}
+
+.menu {
+    -fx-background-color: rgb(40, 40, 40);
+    -fx-text-fill: white;
+}
+
+.context-menu {
+    -fx-background-color: rgb(40, 40, 40);
+}
+
+.menu-item{
+    -fx-background-color: rgb(40,40,40);
+    -fx-text-fill: white;
+}
+
+.menu-item:hover{
+    -fx-background-color: rgb(60,60,60);
+    -fx-text-fill: white;
+}
+
+.button{
+    -fx-background-color: rgb(60,60,60);
+    -fx-text-fill: white;
+}
+
+.button:hover{
+    -fx-background-color: rgb(40,40,40);
+}
+
+.text-field{
+    -fx-background-color: rgb(60,60,60);
+    -fx-text-fill: white;
+}
+
+.combo-box, .combo-box > .list-cell{
+    -fx-background-color: rgb(60,60,60);
+    -fx-text-fill: rgba(255,255,255,80);
+}
+
+.date-picker,.date-picker-popup > .month-year-pane{
+    -fx-background-color: rgb(60,60,60);
+    -fx-text-fill: white;
+}
+
+.list-view,.list-cell:even{
+    -fx-background-color: rgb(70,70,70);
+    -fx-text-fill: white;
+}
+
+.list-cell:odd{
+    -fx-background-color: rgb(80,80,80);
+    -fx-text-fill: white;
+}
+
+.list-cell:hover{
+    -fx-background-color: rgb(120,120,120);
+}
+
+.list-cell:selected{
+    -fx-background-color: rgb(140,140,140);
+}
+
+.tab-pane .tab-header-background {
+    -fx-background-color: rgb(20,20,20);
+    -fx-background-size: cover;
+}
+.tab-pane .tab{
+    -fx-text-fill: #d4d4d4;
+    -fx-font-weight: bold;
+    -fx-background-color: #808080;
+}
+.tab-pane .tab:selected{
+    -fx-text-fill: #2d2d2d;
+    -fx-background-color: #d5d5d5;
+}

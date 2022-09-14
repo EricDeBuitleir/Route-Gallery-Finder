@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.openjdk.jmh:jmh-generator-annprocess:${jmh.version}">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/openjdk/jmh/jmh-generator-annprocess/${jmh.version}/jmh-generator-annprocess-${jmh.version}.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/openjdk/jmh/jmh-generator-annprocess/${jmh.version}/jmh-generator-annprocess-${jmh.version}-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/openjdk/jmh/jmh-generator-annprocess/${jmh.version}/jmh-generator-annprocess-${jmh.version}-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
